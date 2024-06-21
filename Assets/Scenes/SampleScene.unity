@@ -142,8 +142,8 @@ MonoBehaviour:
   gm: {fileID: 1209019503}
   rb: {fileID: 397877979}
   runSpeed: 10
-  strafeSpeed: 75
-  jumpForce: 900
+  strafeSpeed: 50
+  jumpForce: 1000
 --- !u!54 &397877979
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -375,6 +375,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &397877986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397877977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6be5ddcc0b29b448f228fc00a1ea2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1209019503}
+  rb: {fileID: 397877979}
+  runSpeed: 10
+  strafeSpeed: 150
+  jumpForce: 1000
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,6 +670,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7162877999985610890, guid: d617ba1fd30aa664b9e8b69ee2ef7a7c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 397877982}
+    - targetCorrespondingSourceObject: {fileID: 7162877999985610890, guid: d617ba1fd30aa664b9e8b69ee2ef7a7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 397877986}
   m_SourcePrefab: {fileID: 100100000, guid: d617ba1fd30aa664b9e8b69ee2ef7a7c, type: 3}
 --- !u!1 &1209019502
 GameObject:
