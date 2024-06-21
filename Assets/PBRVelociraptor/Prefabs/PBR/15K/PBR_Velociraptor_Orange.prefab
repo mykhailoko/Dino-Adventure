@@ -2630,7 +2630,7 @@ SkinnedMeshRenderer:
   - {fileID: 5380278072185386308}
   - {fileID: 91633728429186607}
   m_BlendShapeWeights:
-  - 34.720924
+  - 0
   - 0
   - 0
   - 0

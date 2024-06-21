@@ -142,7 +142,7 @@ MonoBehaviour:
   gm: {fileID: 1209019503}
   rb: {fileID: 397877979}
   runSpeed: 10
-  strafeSpeed: 50
+  strafeSpeed: 70
   jumpForce: 1000
 --- !u!54 &397877979
 Rigidbody:
