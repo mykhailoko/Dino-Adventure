@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public PlayerMovement movement;
-    public float levelRestartDelay = 2f;
+    public float levelRestartDelay = 1f;
 
     public void EndGame()
     {

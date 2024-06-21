@@ -73,8 +73,8 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
 
-            transform.DORewind();
-            transform.DOShakeScale(.5f, .5f, 3, 30);
+            //transform.DORewind();
+            //transform.DOShakeScale(.5f, .5f, 3, 30);
 
             doJump = false;
         }
